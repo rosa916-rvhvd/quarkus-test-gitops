@@ -1,0 +1,16 @@
+app:
+  name: ryanj-quarkus-app
+  namespace: ryanj-quarkus-app-dev
+  cluster: .apps.cluster-xxxxx.xxxxx.sandbox123.opentlc.com
+
+git:
+  branch: main
+  repo: https://github.com/rosa916-rvhvd/quarkus-test
+  org: rosa916-rvhvd
+  name: quarkus-test
+
+image:
+  registry: Openshift
+  host: image-registry.openshift-image-registry.svc:5000
+  organization: 
+  name: ryanj-quarkus-app
